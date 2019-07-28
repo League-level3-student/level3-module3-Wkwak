@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString replace = new ReplaceSpace("This is the final test");
+		System.out.println(replace);
+		assertEquals("This/is/the/final/test", replace.toString());
 	}
 }
